@@ -9,7 +9,7 @@ import { defineConfig, loadEnv, splitVendorChunkPlugin } from 'vite';
 export default defineConfig(({ command, mode }) => {
     const envVariables = loadEnv(mode, process.cwd());
     return {
-        plugins: [react(), splitVendorChunkPlugin(), setPlugin("212")],
+        plugins: [react(), splitVendorChunkPlugin(), setPlugin("222")],
         publicDir: 'public',
         define: {
             // Inject environment variables into the client-side code
