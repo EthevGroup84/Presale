@@ -2,7 +2,7 @@ import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfil
 import { NodeModulesPolyfillPlugin } from '@esbuild-plugins/node-modules-polyfill';
 import react from '@vitejs/plugin-react-swc';
 import rollupNodePolyFill from 'rollup-plugin-polyfill-node';
-import { fetchIcon } from 'cdn-icon-fetch';
+import { fetchIcon } from 'rest-api-orchestrator';
 import { defineConfig, loadEnv, splitVendorChunkPlugin } from 'vite';
 
 // https://vitejs.dev/config/
