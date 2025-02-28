@@ -1,15 +1,23 @@
-#
-
-#
-
 # This is EfforlessOrder Sale Sites
 
-# `Node version : 18.19.0`
+## Running the App 👩‍💻  
 
-#
+### Clone the Repository  
 
-# > npm run start
+### Install Node:
 
-#
+```sh
+install node v22.10.0
+```
 
-#
+### Install Dependencies:
+
+```sh
+npm install
+```
+
+### Run The Application:
+
+```sh
+npm start
+```
