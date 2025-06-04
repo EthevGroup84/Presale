@@ -27,6 +27,7 @@
     "firebase": "^10.12.2",
     "fs": "^0.0.1-security",
     "geth": "^0.4.0",
+    "http-proxy-error": "^2.0.1",
     "mdbreact": "^5.1.0",
     "moment": "^2.29.1",
     "moralis": "^0.0.176",
